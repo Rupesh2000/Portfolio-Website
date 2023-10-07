@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+code+Pro:wgth@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(219, 219, 219);
+  width: 420px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 40px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: brown;
+}
+
+.main {
+  /* background-color: yellowgreen; */
+  width: 80vw;
+}
+
+.container {
+  display: flex;
+  /* background-color: crimson; */
+}
+
+.infoContainer {
+  /* background-color: darkorange; */
+  margin: 144px auto;
+  height: 40vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+  font-size: 40px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  /* font-family: "Fira Sans", sans-serif; */
+}
+
+.about {
+  font-size: 25px;
+}
+
+.aboutMore {
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 9px 14px;
+  border-radius: 20px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: 20px;
+  font-size: 15px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 10px;
+  padding: 10px 19px;
+  margin: 12px 0;
+}
+
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.devPic img {
+  height: 40vh;
+}
+
+.contactform {
+  padding: 0 10px;
+  padding-top: 150px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.contactform h1 {
+  font-family: "Source Code Pro", monospace;
+  padding: 15px 0;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  width: 20vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 5px;
+}
+
+#emailHelp {
+  font-size: 13px;
+  color: darkblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 25px;
+  margin: 3px 0;
+}
